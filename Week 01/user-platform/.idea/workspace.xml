@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="13acfe8c-0115-4b25-8b87-3188a34cfbda" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/user-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user-web/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-web/src/main/java/org/geektimes/projects/user/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-web/src/main/java/org/geektimes/projects/user/domain/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-web/src/main/java/org/geektimes/projects/user/repository/DatabaseUserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-web/src/main/java/org/geektimes/projects/user/repository/DatabaseUserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-web/src/main/java/org/geektimes/projects/user/sql/DBConnectionManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-web/src/main/java/org/geektimes/projects/user/sql/DBConnectionManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-web/src/main/java/org/geektimes/projects/user/web/controller/HelloWorldController.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-web/src/main/java/org/geektimes/projects/user/web/controller/HelloWorldController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-web/src/main/resources/META-INF/services/org.geektimes.web.mvc.controller.Controller" beforeDir="false" afterPath="$PROJECT_DIR$/user-web/src/main/resources/META-INF/services/org.geektimes.web.mvc.controller.Controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-web/src/main/webapp/WEB-INF/context.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-web/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user-web/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="user-platform" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="user-platform" type="feb32156:DbDataSourceImpl" />
+        <item name="APP: schema" type="12aa88c4:DerbyImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="user-platform" type="feb32156:DbDataSourceImpl" />
+        <item name="APP: schema" type="12aa88c4:DerbyImplModel$Schema" />
+        <item name="USERS: table" type="7a557cd6:DerbyImplModel$Table" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jsp File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1pCg83t9tfUuPEIscF3IASi0Pnn" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="derby" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.extract/conf" />
+    <property name="project.structure.last.edited" value="Facets" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.14749263" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/.extract/conf" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/user-web/src/main/webapp/META-INF" />
+      <recent name="$PROJECT_DIR$/user-web/src/main/webapp/WEB-INF" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.UserServiceImpl">
+    <configuration name="DBConnectionManager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.geektimes.projects.user.sql.DBConnectionManager" />
+      <module name="user-web" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.geektimes.projects.user.sql.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.geektimes.projects.user.service.UserServiceImpl" />
+      <module name="user-web" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.geektimes.projects.user.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.UserServiceImpl" />
+        <item itemvalue="Application.DBConnectionManager" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:user-platform" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:user-platform" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@4afbf552" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="13acfe8c-0115-4b25-8b87-3188a34cfbda" name="Default Changelist" comment="" />
+      <created>1614692323786</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1614692323786</updated>
+      <workItem from="1614692325744" duration="23097000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="327" y="122" key="#Console" timestamp="1614764566746">
+      <screen x="30" y="23" width="1410" height="877" />
+    </state>
+    <state x="327" y="122" key="#Console/30.23.1410.877@30.23.1410.877" timestamp="1614764566746" />
+    <state x="70" y="131" key="#Project_Structure" timestamp="1614781065149">
+      <screen x="30" y="23" width="1410" height="877" />
+    </state>
+    <state x="70" y="131" key="#Project_Structure/30.23.1410.877@30.23.1410.877" timestamp="1614781065149" />
+    <state x="327" y="122" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1614780552338">
+      <screen x="30" y="23" width="1410" height="877" />
+    </state>
+    <state x="327" y="122" key="#com.intellij.execution.impl.EditConfigurationsDialog/30.23.1410.877@30.23.1410.877" timestamp="1614780552338" />
+    <state x="442" y="266" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1614781026484">
+      <screen x="30" y="23" width="1410" height="877" />
+    </state>
+    <state x="442" y="266" key="#com.intellij.fileTypes.FileTypeChooser/30.23.1410.877@30.23.1410.877" timestamp="1614781026484" />
+    <state x="540" y="173" key="#com.intellij.ide.util.MemberChooser" timestamp="1614694187168">
+      <screen x="30" y="23" width="1410" height="877" />
+    </state>
+    <state x="540" y="173" key="#com.intellij.ide.util.MemberChooser/30.23.1410.877@30.23.1410.877" timestamp="1614694187168" />
+    <state x="30" y="414" key="#com.intellij.javaee.module.view.common.J2EE.J2EEDeploymentDescriptorLocationPanel.changeDDPath" timestamp="1614776685188">
+      <screen x="30" y="23" width="1410" height="877" />
+    </state>
+    <state x="30" y="414" key="#com.intellij.javaee.module.view.common.J2EE.J2EEDeploymentDescriptorLocationPanel.changeDDPath/30.23.1410.877@30.23.1410.877" timestamp="1614776685188" />
+    <state width="524" height="466" key="DebuggerActiveHint" timestamp="1614762640569">
+      <screen x="30" y="23" width="1410" height="877" />
+    </state>
+    <state width="524" height="466" key="DebuggerActiveHint/30.23.1410.877@30.23.1410.877" timestamp="1614762640569" />
+    <state width="922" height="138" key="GridCell.Tab.0.bottom" timestamp="1614772487968">
+      <screen x="30" y="23" width="1410" height="877" />
+    </state>
+    <state width="922" height="138" key="GridCell.Tab.0.bottom/30.23.1410.877@30.23.1410.877" timestamp="1614772487968" />
+    <state width="922" height="138" key="GridCell.Tab.0.center" timestamp="1614772487967">
+      <screen x="30" y="23" width="1410" height="877" />
+    </state>
+    <state width="922" height="138" key="GridCell.Tab.0.center/30.23.1410.877@30.23.1410.877" timestamp="1614772487967" />
+    <state width="922" height="138" key="GridCell.Tab.0.left" timestamp="1614772487966">
+      <screen x="30" y="23" width="1410" height="877" />
+    </state>
+    <state width="922" height="138" key="GridCell.Tab.0.left/30.23.1410.877@30.23.1410.877" timestamp="1614772487966" />
+    <state width="1347" height="185" key="GridCell.Tab.0.right" timestamp="1614772488151">
+      <screen x="30" y="23" width="1410" height="877" />
+    </state>
+    <state width="1347" height="185" key="GridCell.Tab.0.right/30.23.1410.877@30.23.1410.877" timestamp="1614772488151" />
+    <state x="277" y="199" width="901" height="590" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1614758166553">
+      <screen x="30" y="23" width="1410" height="877" />
+    </state>
+    <state x="277" y="199" width="901" height="590" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/30.23.1410.877@30.23.1410.877" timestamp="1614758166553" />
+    <state x="386" y="213" width="683" height="486" key="find.popup" timestamp="1614775930486">
+      <screen x="30" y="23" width="1410" height="877" />
+    </state>
+    <state x="386" y="213" width="683" height="486" key="find.popup/30.23.1410.877@30.23.1410.877" timestamp="1614775930486" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/user-web/src/main/java/org/geektimes/projects/user/repository/DatabaseUserRepository.java</url>
+          <line>190</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

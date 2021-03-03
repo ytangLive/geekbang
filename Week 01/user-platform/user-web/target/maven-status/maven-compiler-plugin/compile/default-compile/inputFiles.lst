@@ -1,0 +1,13 @@
+/Users/ytang/Developer/java-project/geek-project/geekbang-lessons/projects/stage-0/user-platform/user-web/src/main/java/org/geektimes/projects/user/service/UserService.java
+/Users/ytang/Developer/java-project/geek-project/geekbang-lessons/projects/stage-0/user-platform/user-web/src/main/java/org/geektimes/projects/user/domain/BaseBean.java
+/Users/ytang/Developer/java-project/geek-project/geekbang-lessons/projects/stage-0/user-platform/user-web/src/main/java/org/geektimes/projects/user/domain/User.java
+/Users/ytang/Developer/java-project/geek-project/geekbang-lessons/projects/stage-0/user-platform/user-web/src/main/java/org/geektimes/projects/user/sql/DBConnectionManager.java
+/Users/ytang/Developer/java-project/geek-project/geekbang-lessons/projects/stage-0/user-platform/user-web/src/main/java/org/geektimes/projects/user/service/UserServiceImpl.java
+/Users/ytang/Developer/java-project/geek-project/geekbang-lessons/projects/stage-0/user-platform/user-web/src/main/java/org/geektimes/projects/user/repository/InMemoryUserRepository.java
+/Users/ytang/Developer/java-project/geek-project/geekbang-lessons/projects/stage-0/user-platform/user-web/src/main/java/org/geektimes/projects/user/repository/DatabaseUserRepository.java
+/Users/ytang/Developer/java-project/geek-project/geekbang-lessons/projects/stage-0/user-platform/user-web/src/main/java/org/geektimes/projects/user/web/filter/CharsetEncodingFilter.java
+/Users/ytang/Developer/java-project/geek-project/geekbang-lessons/projects/stage-0/user-platform/user-web/src/main/java/org/geektimes/projects/user/web/controller/HelloWorldController.java
+/Users/ytang/Developer/java-project/geek-project/geekbang-lessons/projects/stage-0/user-platform/user-web/src/main/java/org/geektimes/projects/user/web/listener/DBConnectionInitializerListener.java
+/Users/ytang/Developer/java-project/geek-project/geekbang-lessons/projects/stage-0/user-platform/user-web/src/main/java/org/geektimes/projects/user/web/controller/RegisterController.java
+/Users/ytang/Developer/java-project/geek-project/geekbang-lessons/projects/stage-0/user-platform/user-web/src/main/java/org/geektimes/projects/user/repository/UserRepository.java
+/Users/ytang/Developer/java-project/geek-project/geekbang-lessons/projects/stage-0/user-platform/user-web/src/main/java/org/geektimes/function/ThrowableFunction.java
