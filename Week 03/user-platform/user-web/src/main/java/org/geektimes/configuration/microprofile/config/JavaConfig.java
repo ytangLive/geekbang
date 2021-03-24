@@ -15,6 +15,8 @@ public class JavaConfig implements Config {
      */
     private List<ConfigSource> configSources = new LinkedList<>();
 
+    private  List<Converter> converters = new LinkedList<>();
+
     private static Comparator<ConfigSource> configSourceComparator = new Comparator<ConfigSource>() {
         @Override
         public int compare(ConfigSource o1, ConfigSource o2) {
@@ -28,13 +30,27 @@ public class JavaConfig implements Config {
         serviceLoader.forEach(configSources::add);
         // 排序
         configSources.sort(configSourceComparator);
+
+        ServiceLoader<Converter> converterServiceLoader = ServiceLoader.load(Converter.class, classLoader);
+        converterServiceLoader.forEach(converters::add);
+
     }
 
     @Override
     public <T> T getValue(String propertyName, Class<T> propertyType) {
         String propertyValue = getPropertyValue(propertyName);
+
+        Optional<Converter<T>> optional = getConverter(propertyType);
+
+        T value = null;
+
+        if(optional.isPresent()){
+            Converter<T> converter = optional.get();
+            value = converter.convert(propertyValue);
+        }
+
         // String 转换成目标类型
-        return null;
+        return value;
     }
 
     @Override
@@ -71,6 +87,11 @@ public class JavaConfig implements Config {
 
     @Override
     public <T> Optional<Converter<T>> getConverter(Class<T> forType) {
+
+        if(forType.equals(int.class) || forType.equals(Integer.class)){
+            return Optional.ofNullable(converters.get(0));
+        }
+
         return Optional.empty();
     }
 

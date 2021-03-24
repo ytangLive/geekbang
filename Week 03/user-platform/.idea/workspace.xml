@@ -2,13 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3f3a8865-0d70-46f2-9315-f300c445b005" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user-web/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-web/src/main/java/org/geektimes/projects/user/management/UserMXBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-web/src/main/java/org/geektimes/projects/user/management/UserMXBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-web/src/main/java/org/geektimes/projects/user/sql/DBConnectionManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-web/src/main/java/org/geektimes/projects/user/sql/DBConnectionManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-web/src/main/java/org/geektimes/projects/user/web/listener/TestingListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-web/src/main/java/org/geektimes/projects/user/web/listener/TestingListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-web/src/main/webapp/META-INF/context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user-web/src/main/webapp/META-INF/context.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-web/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user-web/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-web/src/main/java/org/geektimes/configuration/microprofile/config/IntegerConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/user_web_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/user_web_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-web/src/main/java/org/geektimes/configuration/microprofile/config/JavaConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-web/src/main/java/org/geektimes/configuration/microprofile/config/JavaConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-web/src/main/resources/META-INF/services/org.eclipse.microprofile.config.spi.Converter" beforeDir="false" afterPath="$PROJECT_DIR$/user-web/src/main/resources/META-INF/services/org.eclipse.microprofile.config.spi.Converter" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-web/src/test/java/org/geektimes/configuration/demo/PreferencesDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-web/src/test/java/org/geektimes/configuration/demo/PreferencesDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-web/user-web.iml" beforeDir="false" afterPath="$PROJECT_DIR$/user-web/user-web.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,8 +41,15 @@
     </expand>
     <select />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -60,9 +69,11 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="derby" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
@@ -139,6 +150,7 @@
       <workItem from="1615897402954" duration="1382000" />
       <workItem from="1615898801997" duration="48000" />
       <workItem from="1615898879642" duration="6487000" />
+      <workItem from="1615983661344" duration="6615000" />
     </task>
     <servers />
   </component>
@@ -150,25 +162,33 @@
       <screen x="30" y="23" width="1410" height="877" />
     </state>
     <state x="305" y="121" key="#com.intellij.execution.impl.EditConfigurationsDialog/30.23.1410.877@30.23.1410.877" timestamp="1615382019160" />
-    <state width="1347" height="260" key="GridCell.Tab.0.bottom" timestamp="1615898798055">
+    <state x="558" y="170" key="#com.intellij.ide.util.MemberChooser" timestamp="1615984410311">
       <screen x="30" y="23" width="1410" height="877" />
     </state>
-    <state width="1347" height="260" key="GridCell.Tab.0.bottom/30.23.1410.877@30.23.1410.877" timestamp="1615898798055" />
-    <state width="1347" height="260" key="GridCell.Tab.0.center" timestamp="1615898798053">
+    <state x="558" y="170" key="#com.intellij.ide.util.MemberChooser/30.23.1410.877@30.23.1410.877" timestamp="1615984410311" />
+    <state width="1347" height="133" key="GridCell.Tab.0.bottom" timestamp="1616399509487">
       <screen x="30" y="23" width="1410" height="877" />
     </state>
-    <state width="1347" height="260" key="GridCell.Tab.0.center/30.23.1410.877@30.23.1410.877" timestamp="1615898798053" />
-    <state width="1347" height="260" key="GridCell.Tab.0.left" timestamp="1615898798053">
+    <state width="1347" height="133" key="GridCell.Tab.0.bottom/30.23.1410.877@30.23.1410.877" timestamp="1616399509487" />
+    <state width="1347" height="133" key="GridCell.Tab.0.center" timestamp="1616399509486">
       <screen x="30" y="23" width="1410" height="877" />
     </state>
-    <state width="1347" height="260" key="GridCell.Tab.0.left/30.23.1410.877@30.23.1410.877" timestamp="1615898798053" />
-    <state width="1347" height="260" key="GridCell.Tab.0.right" timestamp="1615898798054">
+    <state width="1347" height="133" key="GridCell.Tab.0.center/30.23.1410.877@30.23.1410.877" timestamp="1616399509486" />
+    <state width="1347" height="133" key="GridCell.Tab.0.left" timestamp="1616399509486">
       <screen x="30" y="23" width="1410" height="877" />
     </state>
-    <state width="1347" height="260" key="GridCell.Tab.0.right/30.23.1410.877@30.23.1410.877" timestamp="1615898798054" />
-    <state x="422" y="213" width="995" height="486" key="find.popup" timestamp="1615904592088">
+    <state width="1347" height="133" key="GridCell.Tab.0.left/30.23.1410.877@30.23.1410.877" timestamp="1616399509486" />
+    <state width="1347" height="133" key="GridCell.Tab.0.right" timestamp="1616399509487">
       <screen x="30" y="23" width="1410" height="877" />
     </state>
-    <state x="422" y="213" width="995" height="486" key="find.popup/30.23.1410.877@30.23.1410.877" timestamp="1615904592088" />
+    <state width="1347" height="133" key="GridCell.Tab.0.right/30.23.1410.877@30.23.1410.877" timestamp="1616399509487" />
+    <state x="247" y="92" key="SettingsEditor" timestamp="1615983669827">
+      <screen x="30" y="23" width="1410" height="877" />
+    </state>
+    <state x="247" y="92" key="SettingsEditor/30.23.1410.877@30.23.1410.877" timestamp="1615983669827" />
+    <state x="422" y="213" width="995" height="486" key="find.popup" timestamp="1615989076414">
+      <screen x="30" y="23" width="1410" height="877" />
+    </state>
+    <state x="422" y="213" width="995" height="486" key="find.popup/30.23.1410.877@30.23.1410.877" timestamp="1615989076414" />
   </component>
 </project>
