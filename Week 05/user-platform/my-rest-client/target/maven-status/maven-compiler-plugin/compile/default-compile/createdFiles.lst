@@ -1,0 +1,13 @@
+org/geektimes/rest/core/DefaultResponseBuilder.class
+org/geektimes/rest/client/MutableClientRequestContext.class
+org/geektimes/rest/core/DefaultUriBuilder.class
+org/geektimes/rest/client/HttpGetInvocation.class
+org/geektimes/rest/client/DefaultInvocationBuilder.class
+org/geektimes/rest/DefaultRuntimeDelegate.class
+org/geektimes/rest/util/URLUtils.class
+org/geektimes/rest/util/PathUtils.class
+org/geektimes/rest/core/DefaultResponse.class
+org/geektimes/rest/client/DefaultClient.class
+org/geektimes/rest/client/DefaultClientBuilder.class
+org/geektimes/rest/client/DefaultVariantListBuilder.class
+org/geektimes/rest/client/ImmutableWebTarget.class
