@@ -1,0 +1,5 @@
+org/geektimes/rest/demo/RestClientDemo.class
+org/geektimes/rest/util/Maps.class
+org/geektimes/rest/util/URLUtilsTest.class
+org/geektimes/rest/demo/HttpURLConnectionDemo.class
+org/geektimes/rest/core/DefaultUriBuilderTest.class

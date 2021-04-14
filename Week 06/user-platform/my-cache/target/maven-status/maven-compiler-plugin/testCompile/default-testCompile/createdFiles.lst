@@ -1,0 +1,7 @@
+org/geektimes/cache/KeyValueTypePairTest.class
+org/geektimes/cache/event/CacheEntryEventListenerAdapterTest.class
+org/geektimes/cache/event/TestCacheEntryListener.class
+org/geektimes/cache/integration/CompositeFallbackStorageTest.class
+org/geektimes/cache/integration/FileFallbackStorageTest.class
+org/geektimes/cache/event/CacheEntryEventListenerAdapterTest$1.class
+org/geektimes/cache/CachingTest.class
