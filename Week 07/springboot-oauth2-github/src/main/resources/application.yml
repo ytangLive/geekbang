@@ -1,0 +1,7 @@
+github:
+  clientId: b151e25885ce522e2e41
+  clientSecret: f2024bec17547e423f314293ab79bdab1706a776
+  authorizeUrl: https://github.com/login/oauth/authorize
+  redirectUrl : http://localhost:8080/oauth2/callback
+  accessTokenUrl: https://github.com/login/oauth/access_token
+  userInfoUrl: https://api.github.com/user
